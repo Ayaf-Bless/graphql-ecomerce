@@ -2,12 +2,14 @@ const { ApolloServer, gql } = require("apollo-server");
 
 const typeDefs = gql`
   type Query {
-    hello: String
+    hello: [String!]!
+    age: Int
   }
 `;
 const resolvers = {
   Query: {
-    hello: () => "Hello word",
+    hello: () => ["Hello word", "bonjour", 1],
+    age: () => 33,
   },
 };
 
