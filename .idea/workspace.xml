@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fbb5b1b-05ae-4b02-8a2f-53035c8c047d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/innit-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolvers/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolvers/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638723382711</updated>
-      <workItem from="1638723384459" duration="4230000" />
+      <workItem from="1638723384459" duration="4563000" />
+      <workItem from="1638728668812" duration="353000" />
+      <workItem from="1638745424676" duration="7771000" />
     </task>
     <servers />
   </component>
@@ -83,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

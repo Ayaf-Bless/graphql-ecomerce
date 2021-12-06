@@ -1,19 +1,17 @@
-const { ApolloServer, gql } = require("apollo-server");
+const { ApolloServer } = require("apollo-server");
+const { typeDefs } = require("./Schema");
+const { Query } = require("./resolvers/Query");
+const { Category } = require("./resolvers/Category");
+const { Product } = require("./resolvers/Product");
 
-const typeDefs = gql`
-  type Query {
-    hello: [String!]!
-    age: Int
-  }
-`;
-const resolvers = {
-  Query: {
-    hello: () => ["Hello word", "bonjour", 1],
-    age: () => 33,
+const server = new ApolloServer({
+  typeDefs,
+  resolvers: {
+    Query,
+    Product,
+    Category,
   },
-};
-
-const server = new ApolloServer({ typeDefs, resolvers });
+});
 
 // The `listen` method launches a web server.
 server.listen().then(({ url }) => {
